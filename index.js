@@ -63,7 +63,9 @@ taskForm.addEventListener('submit', (e) => {
             description: description.value
         });
         editStatus = false
+        alert('Updated')
         taskForm['btn-task-save'].innerText = 'Save'
+
     }
     taskForm.reset()
 })
